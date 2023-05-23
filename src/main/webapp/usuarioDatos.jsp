@@ -1,8 +1,4 @@
-<%-- 
-    Document   : usuarioDatos
-    Created on : Apr 19, 2023, 9:44:24 PM
-    Author     : JuaN
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
