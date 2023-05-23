@@ -1,5 +1,3 @@
-
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -10,9 +8,14 @@
     <body>
         <h1>Datos del Usuario</h1>
         <form>
-            <label for="nombre">Nombre: </label> <%= request.getAttribute("nombre") %>
+            <label for="id">ID: </label> ${id}
             <br><br>
-            <label for="email">Email: </label> <%= request.getAttribute("email") %>
+            <label for="nombre">Nombre: </label> ${nombre}
+            <br><br>
+            <label for="email">Email: </label> ${email}
+            <br><br>
+            <label for="nacionalidad">Nacionalidad: </label> ${nacionalidad}
         </form>
     </body>
 </html>
+
